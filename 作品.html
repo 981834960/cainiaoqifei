@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Build a Personal Portfolio Webpage</title>
+<link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="zp.css">
+ 
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+
+<nav class="navbar navbar-default navbar-fixed-top container-fluid">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">导航</a>
+        </div>
+        <!--id 必须与上面的data-target指向的ID想通-->
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">    
+                <li><a href="#section1">首页</a></li>
+                <li><a href="#section2">关于</a></li>
+                <li><a href="#section3">工作</a></li>
+                <li><a href="#section4">联系</a></li>
+            </ul>
+        </div> 
+    </div>
+</nav>
+
+<section id="section1" class="container-fluid">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-12 intro-message">
+            <h1>Personal Portfolio Webpage</h1>
+            <h3>I Like Freecodecamp</h3>
+            <hr class="intro-divider">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="margin-top:20px;">
+                    <button type="button" class="btn btn-lg btn-default mr">
+                        <span class="mr glyphicon glyphicon-film"></span>视频
+                    </button>
+                    <button type="button" class="btn btn-lg btn-default mr">
+                        <span class="glyphicon glyphicon-headphones mr"></span>音频
+                    </button>
+                    <button type="button" class="btn btn-lg btn-default mr">
+                        <span class="glyphicon glyphicon-file mr"></span>文件
+                    </button>
+                    <button type="button" class="btn btn-lg btn-default mr">
+                        <span class="glyphicon glyphicon-user mr"></span>用户
+                    </button>                
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="section2" class="container">
+    <div class="row">
+        <div class="col-md-5 col-md-offset-1">
+            <h1 >Bootstrap 网站</h1><br>
+            <p class="font">
+                Bootstrap，来自 Twitter，是目前很受欢迎的前端框架。<br>
+                Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。<br>它由Twitter的设计师Mark Otto和Jacob Thornton合作开发，是一个CSS/HTML框架。<br>Bootstrap提供了优雅的HTML和CSS规范，它即是由动态CSS语言Less写成。<br>
+                Bootstrap是基于HTML5和CSS3开发的<br>
+                它在jQuery的基础上进行了更为个性化和人性化的完善，形成一套自己独有的网站风格，并兼容大部分jQuery插件。
+            </p>
+        </div>
+        <div class="col-md-5 col-md-offset-1" style="margin-top:80px;">
+            <div class="thumbnail">
+                <img src="1.jpg"  class="img-responsive" height="550" width="800" alt="这个是一张照片">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section3" class="container">
+    <h1 class="text-center" style="margin-bottom:20px;" >工作</h1>
+    <div class="row" style="margin-bottom:20px;">
+      <div class="col-md-4 col-md-offset-1 thumbnail">
+        <img class="img-responsive" src="http://scr1.templatemonster.com/400x400/57600/57621-original.jpg" alt="" style="height:290px;">
+         <div class="caption text-center">
+            工作一
+        </div> 
+      </div>
+      <div class="col-md-4 col-md-offset-2 thumbnail">
+        <img class="img-responsive" src="http://scr3.templatemonster.com/400x400/58700/58703-original.jpg" alt="" style="height:290px;">
+        <div class="caption text-center">
+            工作二
+        </div> 
+      </div>
+    </div>
+    <div class="row">
+      <div class=" col-md-4 col-md-offset-1 thumbnail">
+        <img class="img-responsive" src="http://www.xandermarketing.com/wp-content/uploads/2016/03/parkmycloud.jpg" alt="" style="height:290px;">
+        <div class="caption text-center">
+            工作三
+        </div> 
+      </div>
+      <div class=" col-md-4 col-md-offset-2 thumbnail">
+        <img  class="img-responsive" src="http://scr0.templatemonster.com/400x400/58900/58900-original.jpg" alt=""  style="height:290px;">
+        <div class="caption text-center">
+            工作四
+        </div> 
+      </div>
+</div>
+</section>
+<section id="section4" class="container">
+    <div class="row">
+        <div class="col-md-5 col-md-offset-1" style="padding-top:90px;">
+            <h2>
+                如果你有什么疑问，请联系邮箱<br>
+                iamsuperam@163.com    
+            </h2>
+        </div>
+        <div class="col-md-4 col-md-offset-2">
+                <button type="button" class="btn btn-lg btn-default btn-mb">
+                    <span class="mr glyphicon glyphicon-film"></span>视频
+                </button><br>
+                <button type="button" class="btn btn-lg btn-default btn-mb">
+                    <span class="glyphicon glyphicon-headphones mr"></span>音频
+                </button><br>
+                <button type="button" class="btn btn-lg btn-default btn-mb">
+                    <span class="glyphicon glyphicon-file mr"></span>文件
+                </button><br>
+                <button type="button" class="btn btn-lg btn-default btn-mb">
+                    <span class="glyphicon glyphicon-user mr"></span>用户
+                </button>   
+        </div>    
+    </div>
+</section>
+<footer style="background-color: #eeedec;">
+    <div class="container">
+    <br>
+    <ol class="breadcrumb" style="background-color: #eeedec;">
+        <li><a href="#section1">首页</a></li>
+        <li><a href="#section2">关于</a></li>
+        <li><a href="#section3">工作</a></li>
+        <li><a href="#section4">联系</a></li>
+    <br> 
+    </ol>
+        <p style="text-indent:10px;">作者<a href="#">吕清松</a><p>
+    </div>   
+</footer> 
+</body>
+</html>
